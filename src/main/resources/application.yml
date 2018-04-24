@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: coco
+    password: gjj666
+    url: jdbc:mysql://localhost:3306/officewe?characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+    context-path: /officewe
+
+
+#mybatis:
+#  type-aliases-package: com.guorui.officewe.dataobject
+#  mapper-locations: classpath*:/mybaits/*Mapper.xml
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql
+
+
+
+
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /var/log/tomcat/
+#  file: /var/log/officewe.log
